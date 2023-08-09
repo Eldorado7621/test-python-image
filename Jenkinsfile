@@ -2,7 +2,7 @@
   agent { 
  docker {
   image 'jenkins/agent'
-  registryUrl "https://hub.docker.com/"
+  registryUrl "https://goharbor.io"
   registryCredentialsId 'docker_hub_id'
   }
   }
