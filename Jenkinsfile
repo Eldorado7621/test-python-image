@@ -2,8 +2,8 @@
   agent { 
  docker {
   image 'jenkins/agent'
-  registryUrl "https://hub.docker.com"
-  registryCredentialsId'docker_hub_id'
+  registryUrl "https://hub.docker.com/"
+  registryCredentialsId 'docker_hub_id'
   }
   }
   // triggers {
