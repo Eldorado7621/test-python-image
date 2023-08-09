@@ -6,9 +6,9 @@
   registryCredentialsId'docker_hub_id'
   }
   }
-   triggers {
-        pollSCM '* * * * *'
-    }
+  // triggers {
+    //    pollSCM '* * * * *'
+    //}
   stages {
     stage('Test') {
       steps {
