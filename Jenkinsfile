@@ -1,10 +1,9 @@
  pipeline {
-  agent //{ dockerfile true }
-  { 
+  agent { 
  docker {
-  image='jenkins/agent'
-  registryUrl="https://hub.docker.com"
-  registryCredentials='docker_hub_id'
+  image 'jenkins/agent'
+  registryUrl "https://hub.docker.com"
+  registryCredentialsId'docker_hub_id'
   }
   }
    triggers {
@@ -22,4 +21,3 @@
     }
   }
 } 
-
