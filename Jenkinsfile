@@ -10,7 +10,7 @@
     //    pollSCM '* * * * *'
     //}
   stages {
-    stage('Tzzettttst') {
+    stage('Tzzetst') {
       steps {
         sh '''
           node --version
