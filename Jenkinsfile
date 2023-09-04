@@ -4,7 +4,7 @@ pipeline {
         pollSCM '* * * * *'
     }
   stages {
-    stage('Tzzest') {
+    stage('Tzzettttst') {
       steps {
         sh '''
           node --version
